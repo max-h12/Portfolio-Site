@@ -2238,16 +2238,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.info-area .info-content:after {
-  content: "";
-  box-shadow: -35.355px 35.355px 50px 0px rgba(157, 157, 157, 0.3);
-  position: absolute;
-  right: 100%;
-  top: 0;
-  background: #fff;
-  width: 70px;
-  height: 100%;
-}
 
 @media (max-width: 991px) {
   .info-area .info-content:after {
