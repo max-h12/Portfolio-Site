@@ -693,6 +693,21 @@ td, th {
   justify-content: space-around;
 }
 
+.rect{
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  padding: 25px;
+  background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 10px,
+    #f4f4f4 10px,
+    #f4f4f4 20px
+  );
+}
+
 .flex-column {
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
