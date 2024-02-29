@@ -6,6 +6,8 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
+
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #00a1f1;
@@ -56,6 +58,11 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 ol, ul {
@@ -697,15 +704,8 @@ td, th {
   border: 2px solid #aaa;
   border-radius: 5px;
   padding: 25px;
-  background: 
-  /* On "top" */
-  repeating-linear-gradient(
-    -45deg,
-    transparent,
-    transparent 10px,
-    #f4f4f4 10px,
-    #f4f4f4 20px
-  );
+  background: #f9fafc;
+  width: 30%;
 }
 
 .flex-column {
@@ -1903,7 +1903,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100% !important;
   z-index: 9;
 }
 
@@ -2438,7 +2438,6 @@ h4:hover{
 
 .courses{
   font-size: 18px;
-  text-decoration: underline;
 }
 
 .orgSub{
